@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1170" height="54" viewBox="0 0 1170 54"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1424"/><stop offset="1" stop-color="#14243B"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5FB3C4"/><stop offset="0.55" stop-color="#7C93C9"/><stop offset="1" stop-color="#9A8CC4"/></linearGradient><radialGradient id="glow1" cx="0.85" cy="0.2" r="0.5"><stop offset="0" stop-color="#7C93C9" stop-opacity="0.18"/><stop offset="1" stop-color="#7C93C9" stop-opacity="0"/></radialGradient><radialGradient id="glow2" cx="0.1" cy="0.9" r="0.5"><stop offset="0" stop-color="#5FB3C4" stop-opacity="0.12"/><stop offset="1" stop-color="#5FB3C4" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#22344F" stroke-width="0.6" opacity="0.55"/></pattern>
+</defs><style>
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes fi{from{opacity:0}to{opacity:1}}
+@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes gl{0%,100%{stroke-opacity:.25}50%{stroke-opacity:.9}}
+@keyframes dr{from{stroke-dashoffset:var(--L)}to{stroke-dashoffset:0}}
+.fu{animation:fu .8s cubic-bezier(.2,.7,.2,1) both}
+.fi{animation:fi .9s ease both}
+.bl{animation:bl 1s step-end infinite}
+.gl{animation:gl 3s ease-in-out infinite}
+</style><text x="0" y="34" font-family="'Cascadia Code',Consolas,'Courier New',monospace" font-size="14" font-weight="700" fill="#8D664D">&gt;<tspan class="bl">_</tspan></text><text x="34" y="35" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#1F2937">Proyectos</text><rect y="48" width="1170" height="1" fill="#D0D7DE"/><rect y="47" width="110" height="3" rx="1.5" fill="url(#acc)"><animate attributeName="width" values="0;110" dur="1s" fill="freeze"/></rect></svg>
