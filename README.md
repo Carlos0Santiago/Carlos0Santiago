@@ -5,7 +5,8 @@
 ```ts
 const carlos = {
   role:      "Full Stack Developer · IA y Automatización",
-  backend:   ["Node.js", "NestJS", "Prisma", "PostgreSQL", "Redis"],
+  languages: ["TypeScript", "JavaScript", "SQL", "C", "C#"],
+  backend:   ["Node.js", "NestJS", ".NET", "Prisma", "PostgreSQL", "Redis"],
   frontend:  ["React", "Vite", "React Native"],
   arch:      ["Clean Architecture", "REST APIs", "JWT", "Webhooks", "Cron jobs"],
   devops:    ["Linux", "Docker Compose", "Traefik + TLS", "Cloudflare"],
